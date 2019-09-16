@@ -1,13 +1,11 @@
 <?php
-$name=$_GET[name];
-$surname=$_GET[surname];
-$age=$_GET[age];
+$X=$_GET[number_one];
+$Y=$_GET[number_two];
 require('../src/functions.php');
-$year=get_yob($_GET[age]);
+$result = summa($X,$Y);
 
-echo "Hello $name $surname You ware born <b>$year</b><br>";
+echo  "You numberOne $X , number_two $Y and summa <b>$result</b><br>";
 
-if($age==40){
+if($result == 0){
 	require('../src/test.php');
 }
-

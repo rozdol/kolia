@@ -2,7 +2,7 @@
 // echo "<rlink style='/css/style.css'>";
 //
 echo "<link rel=\"stylesheet\" href=\"/css/style.css\">";
-echo "<div class='green right'>Test</div>";
+echo "<div class='green left'>Bingo</div>";
 
 
 // echo "
@@ -22,4 +22,3 @@ alert('$name');
 </script>
 ";
 */
-
